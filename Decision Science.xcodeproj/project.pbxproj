@@ -111,12 +111,39 @@
 			path = "Help Tab";
 			sourceTree = "<group>";
 		};
+		D290F23224D0F00400341181 /* NewsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				D269B27624C7A4D400DF573B /* NewsFeedViewController.swift */,
+			);
+			path = NewsFeed;
+			sourceTree = "<group>";
+		};
+		D290F23324D0F02900341181 /* DS412 */ = {
+			isa = PBXGroup;
+			children = (
+				D25D4E2224B6861000D0038F /* DS412Home.swift */,
+			);
+			path = DS412;
+			sourceTree = "<group>";
+		};
+		D290F23424D0F07000341181 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D293407E24849310004848DA /* ViewController.swift */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
 		D293406E24849310004848DA = {
 			isa = PBXGroup;
 			children = (
 				D293407924849310004848DA /* Decision Science */,
-				D293407824849310004848DA /* Products */,
+				D290F23424D0F07000341181 /* Home Screen */,
+				D290F23224D0F00400341181 /* NewsFeed */,
+				D290F23324D0F02900341181 /* DS412 */,
 				D259330A24C637FF001DF5FE /* Help Tab */,
+				D293407824849310004848DA /* Products */,
 				D2BDF99324C523B100ED26DC /* Firebase Log In */,
 				C6A7D2E35B064B4245F7F4D9 /* Pods */,
 				1C7A969A88D3FC9CA9B48976 /* Frameworks */,
@@ -137,14 +164,11 @@
 			children = (
 				D293407A24849310004848DA /* AppDelegate.swift */,
 				D293407C24849310004848DA /* SceneDelegate.swift */,
-				D293407E24849310004848DA /* ViewController.swift */,
 				D2CEE07B24B7F386006E735F /* BreakEvenAnalysisExamplesViewController.swift */,
 				D2CEE07D24B8E200006E735F /* BreakEvenAnalysisQuizViewController.swift */,
-				D25D4E2224B6861000D0038F /* DS412Home.swift */,
 				D293408324849314004848DA /* Assets.xcassets */,
 				D293408524849314004848DA /* LaunchScreen.storyboard */,
 				D293408024849310004848DA /* Main.storyboard */,
-				D269B27624C7A4D400DF573B /* NewsFeedViewController.swift */,
 				D293408824849314004848DA /* Info.plist */,
 			);
 			path = "Decision Science";
