@@ -173,7 +173,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVI-lK-mZe">
                                 <rect key="frame" x="69.5" y="713" width="275" height="50"/>
-                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="275" id="kTM-6g-BNH"/>
                                     <constraint firstAttribute="height" constant="50" id="lrm-VX-yyS"/>
@@ -184,7 +184,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bA7-KD-X0c">
-                                <rect key="frame" x="20" y="145" width="374" height="146"/>
+                                <rect key="frame" x="20" y="110" width="374" height="146"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="146" id="pfS-LU-LLB"/>
@@ -201,7 +201,7 @@
                             <constraint firstItem="bA7-KD-X0c" firstAttribute="leading" secondItem="YcW-p1-VaG" secondAttribute="leadingMargin" id="Brl-lz-dzY"/>
                             <constraint firstItem="MVI-lK-mZe" firstAttribute="centerX" secondItem="YcW-p1-VaG" secondAttribute="centerX" id="f7E-RX-C9v"/>
                             <constraint firstItem="bA7-KD-X0c" firstAttribute="centerX" secondItem="MVI-lK-mZe" secondAttribute="centerX" id="h9D-3Y-hvb"/>
-                            <constraint firstItem="bA7-KD-X0c" firstAttribute="top" secondItem="gTd-lU-Z9g" secondAttribute="top" constant="57" id="isy-FN-ZA9"/>
+                            <constraint firstItem="bA7-KD-X0c" firstAttribute="top" secondItem="gTd-lU-Z9g" secondAttribute="top" constant="22" id="isy-FN-ZA9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gTd-lU-Z9g"/>
                     </view>
@@ -209,6 +209,7 @@
                     <navigationItem key="navigationItem" title="Support Center" id="23P-wN-MPl"/>
                     <connections>
                         <outlet property="emailButton" destination="MVI-lK-mZe" id="Ekn-KY-dXb"/>
+                        <outlet property="label1" destination="bA7-KD-X0c" id="zKl-wr-Xnk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="heX-S3-BeH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -230,10 +231,23 @@
                                     <constraint firstAttribute="height" constant="125" id="ayG-u5-7Ks"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Under Development" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysT-vc-1nV">
+                                <rect key="frame" x="69.5" y="125" width="275" height="50"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="275" id="WjS-hy-Aq9"/>
+                                    <constraint firstAttribute="height" constant="50" id="bM1-UW-2ih"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="ysT-vc-1nV" firstAttribute="top" secondItem="GYm-Uw-Lhm" secondAttribute="top" constant="37" id="5gr-bt-1if"/>
                             <constraint firstItem="pos-lE-l6L" firstAttribute="trailing" secondItem="GYm-Uw-Lhm" secondAttribute="trailing" id="C5o-L2-PC9"/>
+                            <constraint firstItem="ysT-vc-1nV" firstAttribute="centerX" secondItem="UhP-ES-Qus" secondAttribute="centerX" id="EiS-bp-KTI"/>
                             <constraint firstItem="pos-lE-l6L" firstAttribute="bottom" secondItem="GYm-Uw-Lhm" secondAttribute="bottom" id="KeA-6f-N3Y"/>
                             <constraint firstItem="pos-lE-l6L" firstAttribute="leading" secondItem="GYm-Uw-Lhm" secondAttribute="leading" id="b8e-gn-68y"/>
                         </constraints>

@@ -8,14 +8,18 @@
 
 import UIKit
 import MessageUI
+import QuartzCore
 
 class HelpViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
     @IBOutlet weak var emailButton: UIButton!
+    @IBOutlet weak var label1: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         emailButton.layer.cornerRadius = 25.0
+        label1.layer.cornerRadius = 10.0
+        label1.layer.masksToBounds = true
 
     }
 
