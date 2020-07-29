@@ -16,6 +16,7 @@
 		D25D4E2324B6861000D0038F /* DS412Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25D4E2224B6861000D0038F /* DS412Home.swift */; };
 		D269B27724C7A4D400DF573B /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D269B27624C7A4D400DF573B /* NewsFeedViewController.swift */; };
 		D28F700224C796B1009A4775 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28F700124C796B1009A4775 /* HomeViewController.swift */; };
+		D290F23624D0F7EF00341181 /* CapacityPlanningHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290F23524D0F7EF00341181 /* CapacityPlanningHomeViewController.swift */; };
 		D293407B24849310004848DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D293407A24849310004848DA /* AppDelegate.swift */; };
 		D293407D24849310004848DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D293407C24849310004848DA /* SceneDelegate.swift */; };
 		D293407F24849310004848DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D293407E24849310004848DA /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 		D25D4E2224B6861000D0038F /* DS412Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DS412Home.swift; sourceTree = "<group>"; };
 		D269B27624C7A4D400DF573B /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
 		D28F700124C796B1009A4775 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D290F23524D0F7EF00341181 /* CapacityPlanningHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacityPlanningHomeViewController.swift; sourceTree = "<group>"; };
 		D293407724849310004848DA /* Decision Science.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decision Science.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D293407A24849310004848DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D293407C24849310004848DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				D25D4E2224B6861000D0038F /* DS412Home.swift */,
+				D290F23724D0F7FC00341181 /* Capacity Planning */,
 			);
 			path = DS412;
 			sourceTree = "<group>";
@@ -133,6 +136,16 @@
 				D293407E24849310004848DA /* ViewController.swift */,
 			);
 			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		D290F23724D0F7FC00341181 /* Capacity Planning */ = {
+			isa = PBXGroup;
+			children = (
+				D290F23524D0F7EF00341181 /* CapacityPlanningHomeViewController.swift */,
+				D2CEE07B24B7F386006E735F /* BreakEvenAnalysisExamplesViewController.swift */,
+				D2CEE07D24B8E200006E735F /* BreakEvenAnalysisQuizViewController.swift */,
+			);
+			path = "Capacity Planning";
 			sourceTree = "<group>";
 		};
 		D293406E24849310004848DA = {
@@ -164,8 +177,6 @@
 			children = (
 				D293407A24849310004848DA /* AppDelegate.swift */,
 				D293407C24849310004848DA /* SceneDelegate.swift */,
-				D2CEE07B24B7F386006E735F /* BreakEvenAnalysisExamplesViewController.swift */,
-				D2CEE07D24B8E200006E735F /* BreakEvenAnalysisQuizViewController.swift */,
 				D293408324849314004848DA /* Assets.xcassets */,
 				D293408524849314004848DA /* LaunchScreen.storyboard */,
 				D293408024849310004848DA /* Main.storyboard */,
@@ -310,6 +321,7 @@
 				D2BDF99724C523D700ED26DC /* LogInViewController.swift in Sources */,
 				D25D4E2324B6861000D0038F /* DS412Home.swift in Sources */,
 				D202335924C5657D00AFB8FA /* HelpViewController.swift in Sources */,
+				D290F23624D0F7EF00341181 /* CapacityPlanningHomeViewController.swift in Sources */,
 				D293407B24849310004848DA /* AppDelegate.swift in Sources */,
 				D202334A24C52DC100AFB8FA /* Utilities.swift in Sources */,
 				D202334C24C5317500AFB8FA /* ViewControllerDemo.swift in Sources */,
