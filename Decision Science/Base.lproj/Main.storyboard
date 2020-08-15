@@ -1224,7 +1224,7 @@ up by $.50?</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="B) \What is the monthly profit on 61,000 units? On 87,000 units?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ND6-pw-qy0">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="B) What is the monthly profit on 61,000 units? On 87,000 units?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ND6-pw-qy0">
                                                 <rect key="frame" x="0.0" y="298" width="414" height="47"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
